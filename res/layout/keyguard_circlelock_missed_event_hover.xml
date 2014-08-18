@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="180.0dip" >
+
+    <LinearLayout
+        android:id="@+id/missed_event_call_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyguard_lockscreen_circle"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/missed_event_call_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="6.0dip" >
+
+                <ImageView
+                    android:id="@+id/missed_event_call_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/keyguard_lockscreen_missed_event_ic_missedcall" />
+
+                <TextView
+                    android:id="@+id/missed_event_call_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:textColor="#ffebebeb"
+                    android:textSize="21.0dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/missed_event_msg_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="6.0dip" >
+
+                <ImageView
+                    android:id="@+id/missed_event_msg_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/keyguard_lockscreen_missed_event_ic_mms" />
+
+                <TextView
+                    android:id="@+id/missed_event_msg_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:textColor="#ffebebeb"
+                    android:textSize="21.0dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

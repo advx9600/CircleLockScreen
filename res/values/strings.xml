@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">test2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="lockscreen_missed_event_guide_text">Swipe to check missed event</string>
+    <string name="lockscreen_short_cut_guide_text">Swipe shortcut to open applications</string>
+    <string name="lockscreen_unlock_guide_text">Swipe screen to unlock</string>
+</resources>

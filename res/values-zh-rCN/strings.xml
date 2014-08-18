@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+    <string name="lockscreen_missed_event_guide_text">滑动以检查错过的事件</string>
+	<string name="lockscreen_short_cut_guide_text">滑动快捷方式以打开应用程序</string>
+	<string name="lockscreen_unlock_guide_text">滑动屏幕以解锁</string>
+</resources>

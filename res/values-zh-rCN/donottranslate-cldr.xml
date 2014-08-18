@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="abbrev_wday_month_day_no_year">M 月 d 日 E</string>
+    <string name="abbrev_wday_month_day_year">yyyy 年 M 月 d 日 EEE</string>
+
+</resources>

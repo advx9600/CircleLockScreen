@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/help_text_for_waterlock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@id/upper_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dip" >
+
+            <LinearLayout
+                android:id="@id/missed_event_call_background_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/keyguard_lockscreen_circle"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@id/missed_event_call_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@id/missed_event_call_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/keyguard_lockscreen_missed_event_ic_missedcall" />
+
+                <TextView
+                    android:id="@id/missed_event_call_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:textColor="#ffebebeb"
+                    android:textSize="23.0dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="22.5dip" >
+
+            <LinearLayout
+                android:id="@id/missed_event_vvm_background_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/keyguard_lockscreen_circle"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@id/missed_event_vvm_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@id/missed_event_vvm_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/keyguard_lockscreen_missed_event_ic_missedvvm" />
+
+                <TextView
+                    android:id="@id/missed_event_vvm_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:textColor="#ffebebeb"
+                    android:textSize="23.0dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="250dip" >
+
+            <LinearLayout
+                android:id="@id/missed_event_msg_background_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/keyguard_lockscreen_circle"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@id/missed_event_msg_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@id/missed_event_msg_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/keyguard_lockscreen_missed_event_ic_mms" />
+
+                <TextView
+                    android:id="@id/missed_event_msg_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:textColor="#ffebebeb"
+                    android:textSize="23.0dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
